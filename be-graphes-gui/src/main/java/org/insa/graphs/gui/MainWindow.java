@@ -1,3 +1,5 @@
+//Mocquais Vendredi 26 Mars
+
 package org.insa.graphs.gui;
 
 import java.awt.BorderLayout;
@@ -260,7 +262,7 @@ public class MainWindow extends JFrame {
 
         psPanel = new AlgorithmPanel(this, PackageSwitchAlgorithm.class, "Car-Pooling",
                 new String[] { "Oribin A", "Origin B", "Destination A", "Destination B" }, true);
-
+        e-graphes-guiRun as Java Application
         // add algorithm panels
         algoPanels.add(wccPanel);
         algoPanels.add(spPanel);
@@ -291,7 +293,7 @@ public class MainWindow extends JFrame {
 
         // Click adapter
         ActionListener openMapActionListener = new ActionListener() {
-            @Override
+            @Overridee-graphes-guiRun as Java Application
             public void actionPerformed(ActionEvent e) {
                 JFileChooser chooser = FileUtils.createFileChooser(FolderType.Map);
                 if (chooser.showOpenDialog(MainWindow.this) == JFileChooser.APPROVE_OPTION) {
